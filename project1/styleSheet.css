@@ -74,6 +74,7 @@ button {
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
+    padding: 20px 0px 20px 0px; 
   }
 
   img:hover{

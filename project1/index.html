@@ -26,24 +26,26 @@
                     <label for="dateOfBirth" id="dateOfBirthLabel">Date of Birth:</label> <br>
                     <input type="date" id="dateOfBirth" name="dateOfBirth"> <br>
                 </div>
-                <br>
+                <!-- Initial Image -->
                 <label for="file" class="btn btn-primary tooltip"><img src="upload.png" id="i">
                     <div class="right">
                         <p>Upload your image here!</p>
                     </div>
                 </label>
+                <!-- Uploaded Image -->
                 <label for="file" class="btn btn-primary tooltip"><img id="output" width="200" style="display: none;"/>
                     <div class="right">
                         <p>Upload your image here!</p>
                     </div>
                 </label>
-                <input type="file"  accept="image/*" id="file"  onchange="loadFile(event)" style="display: none;"> <br>
-                <progress id="progressBar" value="0" max="100" style=" display: none;"></progress><br>
-                <span id="status"></span><br>
+                <input type="file"  accept="image/*" id="file"  onchange="loadFile(event)" style="display: none;"> 
+                <br>
+                <progress id="progressBar" value="0" max="100" style=" display: none;"></progress>
+                <br>
+                <span id="status"></span>
 
-                <button type="button" class = "button" onclick="checkForm()" >Submit</button>
+                <button type="button" class = "button" onclick="checkForm()">Submit</button>
             </form>
         </div>
-         
     </body>
 </html>
