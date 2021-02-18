@@ -11,30 +11,30 @@
     
                 <div class = "textBox">
                     <label for="username">Username:</label><br>
-                <input type="text" id="username" name="username"> <br>
-                <label for="firstName">First Name:</label><br>
-                <input type="text" id="firstName" name="firstName"> <br>
-                <label for="lastName">Last Name:</label><br>
-                <input type="text" id="lastName" name="lastName"> <br>
-                <label for="dateOfBirth">Date of Birth:</label> <br>
-                <input type="date" id="dateOfBirth" name="dateOfBirth"> <br>
+                    <input type="text" id="username" name="username"> <br>
+                    <label for="firstName">First Name:</label><br>
+                    <input type="text" id="firstName" name="firstName"> <br>
+                    <label for="lastName">Last Name:</label><br>
+                    <input type="text" id="lastName" name="lastName"> <br>
+                    <label for="password">Password:</label> <br>
+                    <input type="password" id="password" name="password"> <br>
+                    <label for="confirmPassword">Confirm Password:</label> <br>
+                    <input type="password" id="confirmPassword" name="confirmPassword"> <br>
+                    <label for="dateOfBirth">Date of Birth:</label> <br>
+                    <input type="date" id="dateOfBirth" name="dateOfBirth"> <br>
+                    
                 </div>
-
-                <img src="default_image.png" id="i" width="250" height="150"> <br><br>
-                <img id="output" width="200" /><br><br>
-                <!-- <a href="#" class="button glow-button"> -->
-                <label class="button glow-button" for="file" >Change Profile Picture</label><br>
-                <!-- </a><br> -->
-                <!-- <input type="file" id="profilePicture" name="profilePicture" accept="image/*"> <br> -->
-                <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: none;"> <br>
-                <progress id="progressBar" value="0" max="100" style="width:400px; display: none;"></progress><br>
+                <br>
+                <label for="file"><img src="default_image.png" id="i"></label>
+                <label for="file"><img id="output" width="200" style="display: none;"/></label>
+                <input type="file"  accept="image/*" id="file"  onchange="loadFile(event)" style="display: none;"> <br>
+                <progress id="progressBar" value="0" max="100" style=" display: none;"></progress><br>
                 <span id="status"></span>
 
-                
-                <br><a href="#" class="button glow-button" target = "submit">Submit</a>
-                
+                <button class = "button">Submit</button>
             </form>
         </div>
+        
         
     </body>
 
@@ -46,6 +46,7 @@
     var x = setTimeout(function() {
         
         document.getElementById('i').style.display = 'none';
+        document.getElementById('output').style.display = 'initial';
         var image = document.getElementById('output');
         image.src = URL.createObjectURL(event.target.files[0]);
     }, 1100);
@@ -55,7 +56,7 @@
      
      var bar = document.getElementById('progressBar');
      var status = document.getElementById('status');
-     status.innerHTML = al + "%";
+     status.innerHTML = al + "%<br>";
      bar.value = al;
      al++;
      
@@ -65,7 +66,7 @@
      }, 10);
      
      if (al == 100) {
-       status.innerHTML = "100%";
+       status.innerHTML = "100%<br>";
        bar.value = 100;
        clearTimeout(sim);
      }
