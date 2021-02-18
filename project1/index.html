@@ -24,10 +24,13 @@
                     <input type="password" id="confirmPassword" name="confirmPassword"> <br>
                     <label for="dateOfBirth">Date of Birth:</label> <br>
                     <input type="date" id="dateOfBirth" name="dateOfBirth"> <br>
-                    
                 </div>
                 <br>
-                <label for="file"><img src="upload.png" id="i"></label>
+                <label for="file" class="btn btn-primary tooltip"><img src="upload.png" id="i">
+                    <div class="right">
+                        <p>Upload your image here!</p>
+                    </div>
+                </label>
                 <label for="file"><img id="output" width="200" style="display: none;"/></label>
                 <input type="file"  accept="image/*" id="file"  onchange="loadFile(event)" style="display: none;"> <br>
                 <progress id="progressBar" value="0" max="100" style=" display: none;"></progress><br>
