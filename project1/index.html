@@ -3,6 +3,7 @@
         <meta charset="utf-8">
         <title>Registration Form</title>   
         <link rel="styleSheet" href="styleSheet.css" >
+        <script type="text/javascript" src = "animations.js"></script>
     </head>
     <body>
         <div class = "registrationForm">
@@ -25,51 +26,15 @@
                     
                 </div>
                 <br>
-                <label for="file"><img src="default_image.png" id="i"></label>
+                <label for="file"><img src="upload.png" id="i"></label>
                 <label for="file"><img id="output" width="200" style="display: none;"/></label>
                 <input type="file"  accept="image/*" id="file"  onchange="loadFile(event)" style="display: none;"> <br>
                 <progress id="progressBar" value="0" max="100" style=" display: none;"></progress><br>
-                <span id="status"></span>
+                <span id="status"></span><br>
 
-                <button class = "button">Submit</button>
+                <button class = "button" onclick="reloadpage()" >Submit</button>
             </form>
         </div>
-        
-        
+         
     </body>
-
-    <script>
-        var loadFile = function(event) {
-    document.getElementById('progressBar').style.display = 'initial';
-    start(0);
-    
-    var x = setTimeout(function() {
-        
-        document.getElementById('i').style.display = 'none';
-        document.getElementById('output').style.display = 'initial';
-        var image = document.getElementById('output');
-        image.src = URL.createObjectURL(event.target.files[0]);
-    }, 1100);
-};
-
- function start(al) {
-     
-     var bar = document.getElementById('progressBar');
-     var status = document.getElementById('status');
-     status.innerHTML = al + "%<br>";
-     bar.value = al;
-     al++;
-     
-     var sim = setTimeout(function() {
-     
-         start(al);
-     }, 10);
-     
-     if (al == 100) {
-       status.innerHTML = "100%<br>";
-       bar.value = 100;
-       clearTimeout(sim);
-     }
- };
-    </script>
 </html>
