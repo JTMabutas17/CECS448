@@ -1,5 +1,5 @@
 # CECS448-Project-1
-#### To ensure you can run the website locally, pleas follow these steps
+#### To ensure you can run the website locally, please follow these steps
 ---
 1. Open your web browser and paste the link into your search bar
     * Should you need the link you can find the repository [here] (https://github.com/JTMabutas17/CECS448.git "CECS 448 Project 1")
