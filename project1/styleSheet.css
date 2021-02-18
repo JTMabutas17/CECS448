@@ -19,6 +19,7 @@ body{
     margin: 20px;
     margin-top: 10px;
     position:inherit;
+    cursor: pointer;
   }
 
   .glow-button:hover {
