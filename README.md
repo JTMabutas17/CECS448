@@ -11,4 +11,4 @@
 ![folder](https://i.gyazo.com/81c4b01c4ddc23d717cfcd4ef257b786.png)
 5. Double Click or Right Click and Select Open which should be the first option.
 6. Upon doing so the website will open in your default browser locally and display the website.
-![website] (https://i.gyazo.com/005a6c5375ff6410f3f48ccb138785b4.png)
+![website](https://i.gyazo.com/005a6c5375ff6410f3f48ccb138785b4.png)
