@@ -9,7 +9,8 @@
             <form>
                 <h1>Registration Form</h1>
     
-                <label for="username">Username:</label><br>
+                <div class = "textBox">
+                    <label for="username">Username:</label><br>
                 <input type="text" id="username" name="username"> <br>
                 <label for="firstName">First Name:</label><br>
                 <input type="text" id="firstName" name="firstName"> <br>
@@ -17,10 +18,11 @@
                 <input type="text" id="lastName" name="lastName"> <br>
                 <label for="dateOfBirth">Date of Birth:</label> <br>
                 <input type="date" id="dateOfBirth" name="dateOfBirth"> <br>
-                <label for="img">Select image:</label>
-                <input type="file" id="profileImage" name="profileImage" accept="image/*"> <br>
-    
-                <!-- <input type="submit" id="submitButton" id="submitButton" class="button glow-button"><br> -->
+                </div>
+
+                <img src="default_image.png" id="i" width="250" height="150"> <br>
+                <label for="img">Change Profile Picture:</label>
+                <input type="file" id="profilePicture" name="profilePicture" accept="image/*"> <br>
                 
                 <br><a href="#" class="button glow-button" target = "submit">Submit</a>
                 
