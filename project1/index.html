@@ -37,12 +37,12 @@
                         <p>Upload your image here!</p>
                     </div>
                 </label>
-                <input type="file"  accept="image/*" id="file"  style="display: none;"> 
+                <input type="file"  accept="image/*" id="file" onchange="upload(event)" style="display: none;"> 
                 <br>
-                <progress id="progressBar" value="0" max="100" style=" display: none;"></progress>
-                <div id="progress"></div>
+                <progress id="progressBar" value="0" max="100" style="display: none;"></progress>
                 <br>
                 <span id="status"></span>
+                <br>
 
                 <button type="button" class = "button" onclick="checkForm()">Submit</button>
             </form>
