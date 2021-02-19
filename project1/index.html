@@ -4,8 +4,7 @@
         <title>Registration Form</title>   
         <link rel = "icon" href ="icon.png" type = "image/x-icon">
         <link rel="styleSheet" href="styleSheet.css" >
-        <script type="text/javascript" src = "animations.js"></script>
-        <script type="text/javascript" src = "inputValidation.js"></script>
+        <script type="text/javascript" src = "backend.js"></script>
     </head>
     <body>
         <div class = "registrationForm">
@@ -38,9 +37,10 @@
                         <p>Upload your image here!</p>
                     </div>
                 </label>
-                <input type="file"  accept="image/*" id="file"  onchange="loadFile(event)" style="display: none;"> 
+                <input type="file"  accept="image/*" id="file"  style="display: none;"> 
                 <br>
                 <progress id="progressBar" value="0" max="100" style=" display: none;"></progress>
+                <div id="progress"></div>
                 <br>
                 <span id="status"></span>
 
