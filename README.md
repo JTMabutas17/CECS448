@@ -1,6 +1,5 @@
 #### Only current project is displayed by README.md
-##### Open README.md and uncomment the corresponding project you wish to display
----
+##### To display previous projects, uncomment the corresponding project in README.md
 
 <!-- # CECS448-Project-1
 #### To ensure you can run the website locally, please follow these steps
@@ -19,5 +18,4 @@
 
 # CECS448-Project-2
 #### To ensure you can run the website locally, please follow these steps
----
 1. TBD
