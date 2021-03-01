@@ -1,4 +1,8 @@
-# CECS448-Project-1
+#### Only current project is displayed by README.md
+##### Open README.md and uncomment the corresponding project you wish to display
+---
+
+<!-- # CECS448-Project-1
 #### To ensure you can run the website locally, please follow these steps
 ---
 1. Open your web browser and paste the link into your search bar
@@ -11,4 +15,9 @@
 ![folder](https://i.gyazo.com/81c4b01c4ddc23d717cfcd4ef257b786.png)
 5. Double Click or Right Click and Select Open which should be the first option.
 6. Upon doing so the website will open in your default browser locally and display the website.
-![website](https://i.gyazo.com/005a6c5375ff6410f3f48ccb138785b4.png)
+![website](https://i.gyazo.com/005a6c5375ff6410f3f48ccb138785b4.png) -->
+
+# CECS448-Project-2
+#### To ensure you can run the website locally, please follow these steps
+---
+1. TBD
