@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Navbar from './components/Navbar'
-import Header from './components/Header/Header';
-import About from './components/About/About';
-import Resume from './components/Resume/Resume';
-import Portfolio from './components/Portfolio/Portfolio';
+import Header from './components/Header';
+import About from './components/About';
+import Abilities from './components/Abilities';
+import Portfolio from './components/Portfolio';
 
 class App extends Component {
   render() {
@@ -12,7 +12,9 @@ class App extends Component {
         <Navbar />
         <Header />
         <About />
-        <Resume />
+        <hr />
+        <Abilities />
+        <hr />
         <Portfolio />
       </div>
     );
