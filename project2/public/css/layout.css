@@ -22,10 +22,9 @@ body { background: #fff; }
 header {
    color:black;
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   height: 100vh;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important; 
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -259,23 +258,39 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Portfolio Section
+/* e. Hokage Section
 /* ------------------------------------------------------------------ */
 
+.hokage-container {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;  
+}
+
+.hokage-content {
+   /* display: flex;
+   align-items: center;
+   justify-content: center; */
+}
+
 #hokage ul{
+  background: black;
   margin: 0px;
   padding: 0px;
   font-family: 'Lato',sans-serif;
-  background: #e74c3c;
+  /* width: 900px;  */
+  margin: 0px auto;
 }
 
-#hokage h1{
+/* #hokage h1{
   color: #fff;
   text-align: center;
   margin-top: 2em;
   font-weight: 200;
   font-size: 80px;
-}
+} */
 
 #hokage .wrapper{
   width: 100%;
@@ -285,13 +300,8 @@ ul#nav li.current a { color: #F06000; }
   overflow: hidden;
 }
 
-#hokage ul{
-  width: 900px; 
-  margin: 0px auto;
-}
 
 #hokage ul li{
-  border-right: 1px solid #3D464E;
   cursor: pointer;
   float: left;
   overflow: hidden;
@@ -301,10 +311,10 @@ ul#nav li.current a { color: #F06000; }
   width: 72px;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
-  background: #fff;
+  /* background: #fff; */
 }
 
-#hokage li a{
+/* #hokage li a{
   display: block;
   width: 100px;
   height: 177px;
@@ -320,15 +330,23 @@ ul#nav li.current a { color: #F06000; }
   text-indent: -999px;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
-}
+} */
 
-#hokage ul li:hover a{
+/* #hokage ul li:hover a{
   background-position: right top;
 }
 
 #hokage ul li:hover{
   width: 350px;
-}
+} */
+
+#hokage li:hover a{
+   background-position: right top;
+ }
+ 
+ #hokage li:hover{
+   width: 350px;
+ }
 
 #hokage p{
  color: #5F5F5F;
@@ -338,4 +356,12 @@ ul#nav li.current a { color: #F06000; }
   padding-top: 40px;
   width: 225px;
   margin: 0px 7em;
+}
+
+.hokage-pic {
+   /* background-color: black; */
+}
+
+.hashirama {
+   background-image: "images/Hokage_Hashirama.png";
 }
