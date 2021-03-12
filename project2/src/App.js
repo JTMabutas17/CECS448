@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header';
 import About from './components/About';
 import Abilities from './components/Abilities';
-import Portfolio from './components/Portfolio';
+import Hokage from './components/Hokage';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
         <hr />
         <Abilities />
         <hr />
-        <Portfolio />
+        <Hokage />
       </div>
     );
   }
