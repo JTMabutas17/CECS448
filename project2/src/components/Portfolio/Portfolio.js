@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 export default class Porfolio extends Component {
   render() {
-    let data = this.props.portfolioData;
     return (
       <section id="hokage">
         <div className="hokage-container">
