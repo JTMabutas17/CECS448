@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>User Persona</title>
 		<link rel="stylesheet" href="styles.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body ng-controller="controller">
 		<div  class="container-card">
@@ -16,11 +17,11 @@
 					<h1>{{model.Name}}</h1>
 					<img alt="Person" ng-src="{{model.Photo}}">
 					<h2 class="text-center">About</h2>
-					<ul>
-						<li>Age: {{model.Age}}</li>
-						<li>Occupation: {{model.Occupation}}</li>
-						<li>Skill: {{model.Skill}}</li>
-						<li>Character: {{model.Character}}</li>
+					<ul class="fa-ul">
+						<li><span class="fa-li"><i class="fa fa-user"></i></span>Age: {{model.Age}}</li>
+						<li><span class="fa-li"><i class="fa fa-vcard"></i></span>Occupation: {{model.Occupation}}</li>
+						<li><span class="fa-li"><i class="fa fa-dollar"></i></span>Income: {{model.Income}}</li>
+						<li><span class="fa-li"><i class="fa fa-shopping-cart"></i></span>Spending Budget: {{model.SpendingBudget}}</li>
 					</ul>
 				</div>
 				<div class="row" id="personality">
@@ -38,20 +39,6 @@
 					<h2>Bio</h2>
 					<p>{{model.Bio}}</p>
 				</div>
-				<div class="row" id="drinks">
-					<h2>Drink Preferences</h2>
-					<ul>
-						<li ng-repeat="drink in model.Drink_pref">{{drink}}</li>
-					</ul>
-				</div>
-				<div class="row" id="foods">
-					<h2>Food Preferences</h2>
-					<ul>
-						<li ng-repeat="food in model.Food_pref">{{food}}</li>
-					</ul>
-				</div>
-			</div>
-			<div class="col">
 				<div class="row" id="hangout">
 					<h2>Ideal Hangout Atmosphere</h2>
 					<ul>
@@ -66,6 +53,21 @@
 					<p>{{model.Pet_Peeves}}</p>
 				</div>
 			</div>
+			<div class="col">
+				<div class="row" id="drinks">
+					<h2>Drink Preferences</h2>
+					<ul>
+						<li ng-repeat="drink in model.Drink_pref">{{drink}}</li>
+					</ul>
+				</div>
+				<div class="row" id="foods">
+					<h2>Food Preferences</h2>
+					<ul>
+						<li ng-repeat="food in model.Food_pref">{{food}}</li>
+					</ul>
+				</div>
+			</div>
+			
 		</div>
 		</div>
 		<script src="angular.js"></script>

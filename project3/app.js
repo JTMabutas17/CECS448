@@ -5,13 +5,13 @@ angular.module("angular", [])
 				Photo: "feelsgoodman.jpg",
 				Age: "59-69",
 				Occupation: "BTTV/FFZ on twitch.tv",
-				Skill: "meme-ing hard",
-				Character: "memelord",
+				Income: "$10-20k / yr.",
+				SpendingBudget: "$2k / mo.",
 				PersonalityTraits: [
-					{ Name: "Introvert/Extrovert", Value: 50 },
-					{ Name: "Analytical/Creative", Value: 70 },
-					{ Name: "Conservative/Liberal", Value: 60 },
-					{ Name: "Passive/Active", Value: 10 }
+					{ Name: "Socialable", Value: 35 },
+					{ Name: "Generosity", Value: 15 },
+					{ Name: "Credibility", Value: 60 },
+					{ Name: "Passive/Active", Value: 50 }
 				], 
 				Bio: "Includes personal hobbies and interests.",
 				Drink_pref: [
@@ -24,10 +24,13 @@ angular.module("angular", [])
 					"Popcorn Chicken"
 				], 
 				Ideal_atmos: [
-					{ Name: "Quiet", Value: 90 },
-					{ Name: "Jazzy", Value: 80 },
+					{ Name: "Quiet", Value: 75 },
+					{ Name: "Music", Value: 80 },
 					{ Name: "Bustling", Value: 35 },
-					{ Name: "Music", Value: 40 }
+					{ Name: "Clean", Value: 90 },
+					{ Name: "Fragrant", Value: 25 },
+					{ Name: "Bright", Value: 40 },
+					{ Name: "Dim", Value: 50 }
 				], 
 				Pet_Peeves: "Lines are a pain.",
 			};
