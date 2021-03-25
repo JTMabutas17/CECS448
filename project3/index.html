@@ -8,10 +8,11 @@
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body ng-controller="controller">
+		<div  class="container-card">
 		<h1>Pepe The Frog</h1>
 		<div class="container">
 			<div class="col">
-				<div class="row" id="motives">
+				<div class="row" id="profile">
 					<h1>{{model.Name}}</h1>
 					<img alt="Person" ng-src="{{model.Photo}}">
 					<h2 class="text-center">About</h2>
@@ -22,7 +23,7 @@
 						<li>Character: {{model.Character}}</li>
 					</ul>
 				</div>
-				<div class="row" id="fears">
+				<div class="row" id="personality">
 					<h2>Personality</h2>
 					<ul>
 						<li ng-repeat="item in model.PersonalityTraits">
@@ -33,17 +34,17 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="row" id="uvp">
+				<div class="row" id="bio">
 					<h2>Bio</h2>
 					<p>{{model.Bio}}</p>
 				</div>
-				<div class="row" id="business">
+				<div class="row" id="drinks">
 					<h2>Drink Preferences</h2>
 					<ul>
 						<li ng-repeat="drink in model.Drink_pref">{{drink}}</li>
 					</ul>
 				</div>
-				<div class="row" id="users">
+				<div class="row" id="foods">
 					<h2>Food Preferences</h2>
 					<ul>
 						<li ng-repeat="food in model.Food_pref">{{food}}</li>
@@ -51,7 +52,7 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="row" id="competitive-advantages">
+				<div class="row" id="hangout">
 					<h2>Ideal Hangout Atmosphere</h2>
 					<ul>
 						<li ng-repeat="item in model.Ideal_atmos">
@@ -60,11 +61,12 @@
 						</li>
 					</ul>
 				</div>
-				<div class="row" id="alternatives">
+				<div class="row" id="peeves">
 					<h2>Pet Peeves</h2>
 					<p>{{model.Pet_Peeves}}</p>
 				</div>
 			</div>
+		</div>
 		</div>
 		<script src="angular.js"></script>
 		<script src="app.js"></script>

@@ -1,10 +1,9 @@
 * {
-	font-family: 'Arial';
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
 	margin: 5px;
-	background-image: linear-gradient(45deg, black, white);
 }
 
 h1 {
@@ -14,9 +13,9 @@ h1 {
 }
 
 h2 {
-	font-size: 1.2rem;
-	text-align: center;
-    text-decoration: underline;
+	font-size: 1.5rem;
+	text-align: left;
+    border-bottom: 2px solid black;
 }
 
 img {
@@ -30,12 +29,21 @@ ul {
 }
 
 .text-center {
-	text-align: center;
+	text-align: left;
 	font-weight: bold;
 }
 
 .container {
 	display: flex;
+	background-color: #c2fffb;
+	border-radius: 25px;
+}
+
+.container-card {
+	background-color: #c2fffb;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 25px;
 }
 
 .col {
@@ -58,13 +66,11 @@ ul {
     padding-right: 1em;
 }
 
-#problems { background-color: #c69cf4; }
-#motives { background-color: #9cf4a7; }
-#fears { background-color: #9ce5f4; }
-#business { background-color: #f4b69c; }
-#users { background-color: #f4f19c; }
-#uvp { background-color: #f49cc8; }
-#problems { background-color: #e3c0ac; }
-#competitive-advantages { background-color: #a39cf4; }
-#alternatives { background-color: #f4c89c; }
-#solutions { background-color: #9cf4df; }
+
+#profile { background-color: #a39cf4; border-radius: 25px; }
+#personality { background-color: #a39cf4; border-radius: 25px; }
+#bio { background-color: #f4b69c; border-radius: 25px; }
+#drinks { background-color: #f4b69c; border-radius: 25px; }
+#foods { background-color: #f4b69c; border-radius: 25px; }
+#hangout { background-color: lemonchiffon; border-radius: 25px; }
+#peeves { background-color: lemonchiffon; border-radius: 25px; }
