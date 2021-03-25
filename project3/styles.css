@@ -19,9 +19,17 @@ h2 {
 }
 
 img {
+	border: 1px solid #ddd;
+	border-radius: 15px;
+	padding: 5px;
 	display: block;
 	margin: 0 auto;
 	max-height: 250px;
+	position: relative;
+}
+
+img:hover {
+	box-shadow: 0 0 2px 4px rgba(0, 140, 186, 0.5);
 }
 
 ul {
@@ -74,4 +82,4 @@ ul {
 #hangout { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
 #peeves { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
 #drinks { background-color: #D3C6A5; border-radius: 25px; color: #10508D;}
-#foods { background-color: #D3C6A5; border-radius: 25px; color: #10508D; }
+#foods { background-color: #D3C6A5; border-radius: 25px; color: #10508D;}
