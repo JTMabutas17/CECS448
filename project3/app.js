@@ -39,6 +39,10 @@ angular.module("angular", [])
 					{ Name: "Dim", Value: 50 }
 				], 
 				Pet_Peeves: "Lines are a pain.",
+
+				ThemeColor1: "background-color: #10508D; color: #D3C6A5;",
+				ThemeColor2: "background-color: #D3C6A5; color: #10508D;",
+				
 			};
 		$scope.model = $scope.Personas;
 	}])

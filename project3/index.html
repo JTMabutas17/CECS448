@@ -13,7 +13,7 @@
 		<h1>Pepe The Frog</h1>
 		<div class="container">
 			<div class="col">
-				<div class="row" id="profile">
+				<div class="row" id="profile" style="{{model.ThemeColor1}}">
 					<h1>{{model.Name}}</h1>
 					<img alt="Person" ng-src="{{model.Photo}}">
 					<h2 class="text-center">About</h2>
@@ -24,7 +24,7 @@
 						<li><span class="fa-li"><i class="fa fa-shopping-cart"></i></span>Spending Budget: {{model.SpendingBudget}}</li>
 					</ul>
 				</div>
-				<div class="row" id="personality">
+				<div class="row" id="personality" style="{{model.ThemeColor1}}"> 
 					<h2>Personality</h2>
 					<ul>
 						<li ng-repeat="item in model.PersonalityTraits">
@@ -35,11 +35,11 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="row" id="bio">
+				<div class="row" id="bio" style="{{model.ThemeColor1}}"> 
 					<h2>Bio</h2>
 					<p>{{model.Bio}}</p>
 				</div>
-				<div class="row" id="hangout">
+				<div class="row" id="hangout" style="{{model.ThemeColor1}}">
 					<h2>Ideal Hangout Atmosphere</h2>
 					<ul>
 						<li ng-repeat="item in model.Ideal_atmos">
@@ -48,13 +48,13 @@
 						</li>
 					</ul>
 				</div>
-				<div class="row" id="peeves">
+				<div class="row" id="peeves" style="{{model.ThemeColor1}}">
 					<h2>Pet Peeves</h2>
 					<p>{{model.Pet_Peeves}}</p>
 				</div>
 			</div>
 			<div class="col">
-				<div class="row" id="drinks">
+				<div class="row" id="drinks" style="{{model.ThemeColor2}}">
 					<h2>Drink Preferences</h2>
 					<h3>{{model.DrinkQuestion1}}</h3>
 					<p>{{model.DrinkAnswer1}}</p>
@@ -63,14 +63,14 @@
 					<h3>{{model.DrinkQuestion3}}</h3>
 					<p>{{model.DrinkAnswer3}}</p>
 				</div>
-				<div class="row" id="foods">
+				<div class="row" id="foods" style="{{model.ThemeColor2}}">
 					<h2>Food Preferences</h2>
 					<h3>{{model.FoodQuestion1}}</h3>
 					<p>{{model.FoodAnswer1}}</p>
 					<h3>{{model.FoodQuestion2}}</h3>
-					<p>{{model.FoodAnswer1}}</p>
+					<p>{{model.FoodAnswer2}}</p>
 					<h3>{{model.FoodQuestion3}}</h3>
-					<p>{{model.FoodAnswer1}}</p>
+					<p>{{model.FoodAnswer3}}</p>
 				</div>
 			</div>
 			
