@@ -76,10 +76,19 @@ ul {
 }
 
 
-#profile { background-color: #10508D; border-radius: 25px; padding-bottom: 5px; color: #DEDAC7;}
+/* #profile { background-color: #10508D; border-radius: 25px; padding-bottom: 5px; color: #DEDAC7;}
 #personality { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
 #bio { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
 #hangout { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
 #peeves { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
 #drinks { background-color: #D3C6A5; border-radius: 25px; color: #10508D;}
 #foods { background-color: #D3C6A5; border-radius: 25px; color: #10508D;}
+#foods { background-color: #D3C6A5; border-radius: 25px; color: #10508D; } */
+
+#profile {border-radius: 25px; padding-bottom: 5px;}
+#personality {border-radius: 25px;}
+#coreneeds {border-radius: 25px;}
+#hangout {border-radius: 25px;}
+#peeves {border-radius: 25px;}
+#drinks {border-radius: 25px;}
+#foods {border-radius: 25px;}
