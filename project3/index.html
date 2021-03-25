@@ -13,7 +13,7 @@
 		<h1>Pepe The Frog</h1>
 		<div class="container">
 			<div class="col">
-				<div class="row" id="profile" style="{{model.ThemeColor1}}">
+				<div class="row ThemeColor1" id="profile">
 					<h1>{{model.Name}}</h1>
 					<img alt="Person" ng-src="{{model.Photo}}">
 					<h2 class="text-center">About</h2>
@@ -24,7 +24,7 @@
 						<li><span class="fa-li"><i class="fa fa-shopping-cart"></i></span>Spending Budget: {{model.SpendingBudget}}</li>
 					</ul>
 				</div>
-				<div class="row" id="personality" style="{{model.ThemeColor1}}">
+				<div class="row ThemeColor1" id="personality">
 					<h2>Personality</h2>
 					<ul>
 						<li ng-repeat="item in model.PersonalityTraits">
@@ -35,11 +35,11 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="row" id="coreneeds" style="{{model.ThemeColor1}}">
+				<div class="row ThemeColor1" id="coreneeds">
 					<h2>Core Needs</h2>
 					<p>{{model.Core_needs}}</p>
 				</div>
-				<div class="row" id="hangout" style="{{model.ThemeColor1}}">
+				<div class="row ThemeColor1" id="hangout">
 					<h2>Ideal Hangout Atmosphere</h2>
 					<ul>
 						<li ng-repeat="item in model.Ideal_atmos">
@@ -48,13 +48,13 @@
 						</li>
 					</ul>
 				</div>
-				<div class="row" id="peeves" style="{{model.ThemeColor1}}">
+				<div class="row ThemeColor1" id="peeves">
 					<h2>Pet Peeves</h2>
 					<p>{{model.Pet_Peeves}}</p>
 				</div>
 			</div>
 			<div class="col">
-				<div class="row" id="drinks" style="{{model.ThemeColor2}}">
+				<div class="row ThemeColor2" id="drinks">
 					<h2>Drink Preferences</h2>
 					<h3>{{model.DrinkQuestion1}}</h3>
 					<p>{{model.DrinkAnswer1}}</p>
@@ -63,7 +63,7 @@
 					<h3>{{model.DrinkQuestion3}}</h3>
 					<p>{{model.DrinkAnswer3}}</p>
 				</div>
-				<div class="row" id="foods" style="{{model.ThemeColor2}}">
+				<div class="row ThemeColor2" id="foods">
 					<h2>Food Preferences</h2>
 					<h3>{{model.FoodQuestion1}}</h3>
 					<p>{{model.FoodAnswer1}}</p>

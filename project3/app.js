@@ -38,11 +38,7 @@ angular.module("angular", [])
 					{ Name: "Bright", Value: 40 },
 					{ Name: "Dim", Value: 50 }
 				], 
-				Pet_Peeves: "Waiting in line is a pain during orders. Some orders take too long to finish thus the food ends up cold.",
-
-				ThemeColor1: "background-color: #10508D; color: #D3C6A5;",
-				ThemeColor2: "background-color: #D3C6A5; color: #10508D;",
-				
+				Pet_Peeves: "Waiting in line is a pain during orders. Some orders take too long to finish thus the food ends up cold."
 			};
 		$scope.model = $scope.Personas;
 	}])
