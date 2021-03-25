@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html ng-app="angular">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>User Persona</title>
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	<body ng-controller="controller">
+		<h1>Pepe The Frog</h1>
+		<div class="container">
+			<div class="col">
+				<div class="row" id="motives">
+					<h1>{{model.Name}}</h1>
+					<img alt="Person" ng-src="{{model.Photo}}">
+					<h2 class="text-center">About</h2>
+					<ul>
+						<li>Age: {{model.Age}}</li>
+						<li>Occupation: {{model.Occupation}}</li>
+						<li>Skill: {{model.Skill}}</li>
+						<li>Character: {{model.Character}}</li>
+					</ul>
+				</div>
+				<div class="row" id="fears">
+					<h2>Personality</h2>
+					<ul>
+						<li ng-repeat="item in model.PersonalityTraits">
+							{{item.Name}}
+							<br><progress ng-value="item.Value" max="100"></progress>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col">
+				<div class="row" id="uvp">
+					<h2>Bio</h2>
+					<p>{{model.Bio}}</p>
+				</div>
+				<div class="row" id="business">
+					<h2>Drink Preferences</h2>
+					<ul>
+						<li ng-repeat="drink in model.Drink_pref">{{drink}}</li>
+					</ul>
+				</div>
+				<div class="row" id="users">
+					<h2>Food Preferences</h2>
+					<ul>
+						<li ng-repeat="food in model.Food_pref">{{food}}</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col">
+				<div class="row" id="competitive-advantages">
+					<h2>Ideal Hangout Atmosphere</h2>
+					<ul>
+						<li ng-repeat="item in model.Ideal_atmos">
+							{{item.Name}}
+							<br><progress ng-value="item.Value" max="100"></progress>
+						</li>
+					</ul>
+				</div>
+				<div class="row" id="alternatives">
+					<h2>Pet Peeves</h2>
+					<p>{{model.Pet_Peeves}}</p>
+				</div>
+			</div>
+		</div>
+		<script src="angular.js"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
