@@ -13,7 +13,7 @@ angular.module("angular", [])
 					{ Name: "Credibility", Value: 60 },
 					{ Name: "Passive/Active", Value: 50 }
 				], 
-				Core_needs: "Includes personal hobbies and interests.",
+				Core_needs: "Online orders for takeout/delivery needs easy to access, easy to read menu on the website. Orders must give confirmation email, notification, or message when completed and gives an ETA.",
 
 				DrinkQuestion1: "Do you like your drinks served hot or cold?",
 				DrinkAnswer1: "Cold.",
