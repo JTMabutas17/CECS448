@@ -40,10 +40,11 @@ ul {
 
 .container-card {
 	/* background-image: linear-gradient( #00c9ff, #9defff); */
-	background-image: linear-gradient( rgb(61, 61, 61), rgb(190, 190, 190));
+	background-image: linear-gradient(  #1CB4CB, #7BD8DA);
 	padding-top: 10px;
 	padding-bottom: 15px;
 	border-radius: 25px;
+	color: #10508D;
 }
 
 .col {
@@ -67,10 +68,10 @@ ul {
 }
 
 
-#profile { background-color: rgb(68, 68, 68); border-radius: 25px; padding-bottom: 5px; color: white;}
-#personality { background-color: rgb(68, 68, 68); border-radius: 25px; color: white;}
-#bio { background-color: rgb(68, 68, 68); border-radius: 25px; color: white;}
-#hangout { background-color: rgb(68, 68, 68); border-radius: 25px; color: white;}
-#peeves { background-color: rgba(0, 0, 0, 0.781); border-radius: 25px; color: white;}
-#drinks { background-color: white; border-radius: 25px; }
-#foods { background-color: white; border-radius: 25px; }
+#profile { background-color: #10508D; border-radius: 25px; padding-bottom: 5px; color: #DEDAC7;}
+#personality { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
+#bio { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
+#hangout { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
+#peeves { background-color: #10508D; border-radius: 25px; color: #DEDAC7;}
+#drinks { background-color: #D3C6A5; border-radius: 25px; color: #10508D;}
+#foods { background-color: #D3C6A5; border-radius: 25px; color: #10508D; }
