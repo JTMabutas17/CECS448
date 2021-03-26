@@ -1,20 +1,20 @@
 angular.module("angular", [])
 	.controller("controller", ["$scope", function($scope) { 
 		$scope.Personas = {		
-				Title: "Persona Template",
-				Name: "Example Persona",
+				Title: "Trainer Red",
+				Name: "Red",
 				Photo: "profile_pic.png",
 				Age: "18-28",
-				Occupation: "Example Occupation",
+				Occupation: "Pokemon Trainer",
 				Income: "$10-20k / yr.",
-				SpendingBudget: "$5.50 per visit.",
+				SpendingBudget: "$12.50 per visit.",
 				PersonalityTraits: [
-					{ Name: "Socialable", Value: 50 },
-					{ Name: "Generosity", Value: 50 },
-					{ Name: "Credibility", Value: 50 },
-					{ Name: "Passive/Active", Value: 50 }
+					{ Name: "Socialable", Value: 25 },
+					{ Name: "Generosity", Value: 1 },
+					{ Name: "Credibility", Value: 100 },
+					{ Name: "Passive/Active", Value: 25 }
 				], 
-				Core_needs: "Example core needs of an example persona.",
+				Core_needs: "Customer service that cares about me as an individual. It should be easy for me to figure out who/how to get in contact with the company.",
 
 				DrinkQuestion1: "How sweet do you like your drinks?",
 				DrinkAnswer1: "50%.",
@@ -31,15 +31,15 @@ angular.module("angular", [])
 				FoodAnswer3: "As long as there is spicy popcorn chicken, I don't care.",
 
 				Ideal_atmos: [
-					{ Name: "Quiet", Value: 50 },
-					{ Name: "Music", Value: 50 },
-					{ Name: "Bustling", Value: 50 },
-					{ Name: "Clean", Value: 50 },
-					{ Name: "Fragrant", Value: 50 },
-					{ Name: "Bright", Value: 50 },
-					{ Name: "Dim", Value: 50 }
+					{ Name: "Quiet", Value: 60 },
+					{ Name: "Music", Value: 40 },
+					{ Name: "Bustling", Value: 10 },
+					{ Name: "Clean", Value: 100 },
+					{ Name: "Fragrant", Value: 60 },
+					{ Name: "Bright", Value: 60 },
+					{ Name: "Dim", Value: 40 }
 				], 
-				Pet_Peeves: "Example pet peeves of an example persona."
+				Pet_Peeves: "Having to wait too long for my order to come in. It makes sense when there are tons of customers but if I'm the only customer, I better not wait longer than 10 minutes."
 			};
 		$scope.model = $scope.Personas;
 	}])
