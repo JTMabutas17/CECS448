@@ -47,7 +47,7 @@ ul {
 }
 
 .container-card {
-	background-image: linear-gradient(  #222831d5, #eeeeee);
+	background-image: linear-gradient(  #810000, #f0e7c0);
 	padding-top: 10px;
 	padding-bottom: 15px;
 	border-radius: 25px;
@@ -78,11 +78,11 @@ ul {
 }
 
 .ThemeColor1 {
-	background-color: #222831; color: #eeeeee;
+	background-color: #630000; color: #eeebdd;
 }
 
 .ThemeColor2 {
-	background-color: #eeeeee; color: #222831;
+	background-color: #eeebdd; color: #630000;
 }
 
 #profile {border-radius: 25px; padding-bottom: 5px;}
