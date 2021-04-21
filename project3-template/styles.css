@@ -47,12 +47,7 @@ ul {
 }
 
 .container-card {
-<<<<<<< HEAD
-	/* background-image: linear-gradient( #00c9ff, #9defff); */
-	background-image: linear-gradient( #7BD8DA , #1CB4CB);
-=======
-	background-image: linear-gradient(  #810000, #f0e7c0);
->>>>>>> eba27bf2824862d509f18220ecf525aa746e8bc8
+	background-image: linear-gradient(  #222831d5, #eeeeee);
 	padding-top: 10px;
 	padding-bottom: 15px;
 	border-radius: 25px;
@@ -83,11 +78,11 @@ ul {
 }
 
 .ThemeColor1 {
-	background-color: #630000; color: #eeebdd;
+	background-color: #222831; color: #eeeeee;
 }
 
 .ThemeColor2 {
-	background-color: #eeebdd; color: #630000;
+	background-color: #eeeeee; color: #222831;
 }
 
 #profile {border-radius: 25px; padding-bottom: 5px;}

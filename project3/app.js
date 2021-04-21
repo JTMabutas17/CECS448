@@ -1,44 +1,54 @@
 angular.module("angular", [])
 	.controller("controller", ["$scope", function($scope) { 
 		$scope.Personas = {		
+<<<<<<< HEAD
 				Name: "Pepe",
 				Photo: "feelsgoodman.jpg",
 				Age: "18-28",
 				Occupation: "BTTV/FFZ on twitch.tv",
 				Income: "$10-20k / yr.",
 				SpendingBudget: "$15 per visit",
+=======
+				Title: "Trainer Red",
+				Name: "Red",
+				Photo: "profile_pic.png",
+				Age: "18-28",
+				Occupation: "Pokemon Trainer",
+				Income: "$10-20k / yr.",
+				SpendingBudget: "$12.50 per visit.",
+>>>>>>> eba27bf2824862d509f18220ecf525aa746e8bc8
 				PersonalityTraits: [
-					{ Name: "Socialable", Value: 35 },
-					{ Name: "Generosity", Value: 15 },
-					{ Name: "Credibility", Value: 60 },
-					{ Name: "Passive/Active", Value: 50 }
+					{ Name: "Socialable", Value: 25 },
+					{ Name: "Generosity", Value: 1 },
+					{ Name: "Credibility", Value: 100 },
+					{ Name: "Passive/Active", Value: 25 }
 				], 
-				Core_needs: "Online orders for takeout/delivery needs easy to access, easy to read menu on the website. Orders must give confirmation email, notification, or message when completed and gives an ETA.",
+				Core_needs: "Customer service that cares about me as an individual. It should be easy for me to figure out who/how to get in contact with the company.",
 
-				DrinkQuestion1: "Do you like your drinks served hot or cold?",
-				DrinkAnswer1: "Cold.",
-				DrinkQuestion2: "How sweet do you like your drinks?",
-				DrinkAnswer2: "None or lightly sweetened.",
-				DrinkQuestion3: "How often do you go out to get boba?",
-				DrinkAnswer3: "Very seldomly, only when there are people to go with.",
+				DrinkQuestion1: "How sweet do you like your drinks?",
+				DrinkAnswer1: "50%.",
+				DrinkQuestion2: "What size do you normally order?",
+				DrinkAnswer2: "Medium.",
+				DrinkQuestion3: "What is your favorite drink?",
+				DrinkAnswer3: "Mango Green Tea with Boba.",
 
-				FoodQuestion1: "What is your favorite food to order?",
-				FoodAnswer1: "Cajun Fries.",
-				FoodQuestion2: "How often do you order food when you get boba?",
-				FoodAnswer2: "Almost every time.",
+				FoodQuestion1: "Do you prefer spicy food?",
+				FoodAnswer1: "I highly prefer spicy food.",
+				FoodQuestion2: "What is your favorite food to order?",
+				FoodAnswer2: "Spicy popcorn chicken.",
 				FoodQuestion3: "How important are food options when visiting a boba place?",
-				FoodAnswer3: "Important. Sometimes the snacks are what you go there for and they go well with the drinks.",
+				FoodAnswer3: "As long as there is spicy popcorn chicken, I don't care.",
 
 				Ideal_atmos: [
-					{ Name: "Quiet", Value: 75 },
-					{ Name: "Music", Value: 80 },
-					{ Name: "Bustling", Value: 35 },
-					{ Name: "Clean", Value: 90 },
-					{ Name: "Fragrant", Value: 25 },
-					{ Name: "Bright", Value: 40 },
-					{ Name: "Dim", Value: 50 }
+					{ Name: "Quiet", Value: 60 },
+					{ Name: "Music", Value: 40 },
+					{ Name: "Bustling", Value: 10 },
+					{ Name: "Clean", Value: 100 },
+					{ Name: "Fragrant", Value: 60 },
+					{ Name: "Bright", Value: 60 },
+					{ Name: "Dim", Value: 40 }
 				], 
-				Pet_Peeves: "Waiting in line is a pain during orders. Some orders take too long to finish thus the food ends up cold."
+				Pet_Peeves: "Having to wait too long for my order to come in. It makes sense when there are tons of customers but if I'm the only customer, I better not wait longer than 10 minutes."
 			};
 		$scope.model = $scope.Personas;
 	}])
