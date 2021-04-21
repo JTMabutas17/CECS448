@@ -48,7 +48,7 @@ ul {
 
 .container-card {
 	/* background-image: linear-gradient( #00c9ff, #9defff); */
-	background-image: linear-gradient(  #1CB4CB, #7BD8DA);
+	background-image: linear-gradient( #7BD8DA , #1CB4CB);
 	padding-top: 10px;
 	padding-bottom: 15px;
 	border-radius: 25px;

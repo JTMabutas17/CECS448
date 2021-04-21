@@ -3,10 +3,10 @@ angular.module("angular", [])
 		$scope.Personas = {		
 				Name: "Pepe",
 				Photo: "feelsgoodman.jpg",
-				Age: "59-69",
+				Age: "18-28",
 				Occupation: "BTTV/FFZ on twitch.tv",
 				Income: "$10-20k / yr.",
-				SpendingBudget: "$2k / mo.",
+				SpendingBudget: "$15 per visit",
 				PersonalityTraits: [
 					{ Name: "Socialable", Value: 35 },
 					{ Name: "Generosity", Value: 15 },
