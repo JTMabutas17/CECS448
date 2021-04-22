@@ -14,22 +14,22 @@ export default class Checkout extends Component {
       <div className="col-50">
       <h3>Billing Address</h3>
       <label for="fname"><i className="fa fa-user"></i> Full Name</label>
-      <input type="text" id="fname" name="firstname" placeholder="John M. Doe" />
+      <input type="text" id="fname" name="firstname" value="John M. Doe" disabled />
       <label for="email"><i className="fa fa-envelope"></i> Email</label>
-      <input type="text" id="email" name="email" placeholder="john@example.com" />
+      <input type="text" id="email" name="email" value="john@example.com" disabled/>
       <label for="adr"><i className="fa fa-address-card-o"></i> Address</label>
-      <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" />
+      <input type="text" id="adr" name="address" value="542 W. 15th Street" disabled />
       <label for="city"><i className="fa fa-institution"></i> City</label>
-      <input type="text" id="city" name="city" placeholder="New York" />
+      <input type="text" id="city" name="city" value="New York" disabled />
 
       <div className="row">
       <div className="col-50">
       <label for="state">State</label>
-      <input type="text" id="state" name="state" placeholder="NY" />
+      <input type="text" id="state" name="state" value="CA" disabled />
       </div>
       <div className="col-50">
       <label for="zip">Zip</label>
-      <input type="text" id="zip" name="zip" placeholder="10001" />
+      <input type="text" id="zip" name="zip" value="10001" disabled />
       </div>
       </div>
       </div>
@@ -44,20 +44,20 @@ export default class Checkout extends Component {
       <i className="fa fa-cc-discover" style={{color:"orange"}}></i>
       </div>
       <label for="cname">Name on Card</label>
-      <input type="text" id="cname" name="cardname" placeholder="John More Doe" />
+      <input type="text" id="cname" name="cardname" value="John More Doe" disabled />
       <label for="ccnum">Credit card number</label>
-      <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444" />
+      <input type="text" id="ccnum" name="cardnumber" value="1111-2222-3333-4444" disabled />
       <label for="expmonth">Exp Month</label>
-      <input type="text" id="expmonth" name="expmonth" placeholder="September" />
+      <input type="text" id="expmonth" name="expmonth" value="September" disabled />
 
       <div className="row">
       <div className="col-50">
       <label for="expyear">Exp Year</label>
-      <input type="text" id="expyear" name="expyear" placeholder="2018" />
+      <input type="text" id="expyear" name="expyear" value="2018" disabled />
       </div>
       <div className="col-50">
       <label for="cvv">CVV</label>
-      <input type="text" id="cvv" name="cvv" placeholder="352" />
+      <input type="text" id="cvv" maxlength="3" min ="0" name="cvv" value="352" disabled />
       </div>
       </div>
       </div>
@@ -68,7 +68,7 @@ export default class Checkout extends Component {
       </label>
       <br/>
       <Link to="/">
-        <p className="btn">Continue to checkout</p>
+        <p className="btn" onclick="myFunction()">Finalize Order</p>
       </Link>
       </form>
       </div>
@@ -82,12 +82,12 @@ export default class Checkout extends Component {
       <b>4</b>
       </span>
       </h4>
-      <p style={{paddingTop: "10px"}}><a href="#">Product 1</a> <span className="price">$15</span></p>
-      <p><a href="#">Product 2</a> <span className="price">$5</span></p>
-      <p><a href="#">Product 3</a> <span className="price">$8</span></p>
-      <p><a href="#">Product 4</a> <span className="price">$2</span></p>
+      <p style={{paddingTop: "10px"}}><a href="#">Mango Green Tea</a> <span className="price">$5</span></p>
+      <p><a href="#">Thai Tea</a> <span className="price">$5</span></p>
+      <p><a href="#">Black Tea</a> <span className="price">$3</span></p>
+      <p><a href="#">Oolong Milk Tea</a> <span className="price">$4</span></p>
       <hr />
-      <p>Total <span class="price" style={{color:"black"}}><b>$30</b></span></p>
+      <p>Total <span class="price" style={{color:"black"}}><b>$17</b></span></p>
       </div>
       </div>
       </div>

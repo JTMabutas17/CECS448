@@ -4,15 +4,47 @@ export default class Order extends Component {
   render() {
     return (
       <section id="order">
-        <div className="about-container">
-          <img className="profile-picture" src="images/profilepic.jpg" />
-          <div className="about-text-area">
-            <h1>ORDER PAGE</h1>
-            {/* This is from Wikipedia: https://onepunchman.fandom.com/wiki/Saitama */}
-            <p>Naruto Uzumaki (うずまきナルト, Uzumaki Naruto) is a shinobi of Konohagakure's Uzumaki clan. He became the jinchūriki of the Nine-Tails on the day of his birth — a fate that caused him to be shunned by most of Konoha throughout his childhood. After joining Team Kakashi, Naruto worked hard to gain the village's acknowledgement all the while chasing his dream to become Hokage. In the following years, through many hardships and ordeals, he became a capable ninja regarded as a hero both by the villagers, and soon after, the rest of the world, becoming known as the Hero of the Hidden Leaf (木ノ葉隠れの英雄, Konohagakure no Eiyū, literally meaning: Hero of the Hidden Tree Leaves). He soon proved to be one of the main factors in winning the Fourth Shinobi World War, leading him to achieve his dream and become the village's Seventh Hokage (七代目火影, Nanadaime Hokage, literally meaning: Seventh Fire Shadow).</p>
-            <Link to="/Checkout">Checkout</Link>
-          </div>
-        </div>
+        <div className="order-container">
+      <div className="row">
+      <div className="col-75">
+      <div className="container">
+      <form action="/action_page.php">
+
+      <div className="row">
+      <div className="col-50">
+      <h3>Order Form</h3>
+      <label for="fname">Drink Base</label>
+      <input type="text" id="fname" name="firstname" value="John M. Doe" disabled />
+      <label for="email">Drink Flavor</label>
+      <input type="text" id="email" name="email" value="john@example.com" disabled/>
+      <label for="adr">Toppings</label>
+      <input type="text" id="adr" name="address" value="542 W. 15th Street" disabled />
+
+      <div className="row">
+      <div className="col-50">
+      <label for="state">Sweetness Level</label>
+      <input type="text" id="state" name="state" value="CA" disabled />
+      </div>
+      <div className="col-50">
+      <label for="zip">Ice Level</label>
+      <input type="text" id="zip" name="zip" value="10001" disabled />
+      </div>
+      </div>
+      </div>
+
+      </div>
+      <br/>
+      <Link>
+      <p className="btn">Add Drink</p>
+      </Link>
+      <Link to="/Checkout">
+      <p className="btn">Continue to Checkout</p>
+      </Link>
+      </form>
+      </div>
+      </div>
+      </div>
+      </div>
       </section>
     );
   }
