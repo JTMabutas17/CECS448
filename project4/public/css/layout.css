@@ -65,6 +65,7 @@ ul#nav li.current a { color: gray; }
 /* ------------------------------------------------------------------ */
 
 header {
+   padding-top: 65px;
    color:black;
    width: 100%;
    height: 100vh;
@@ -122,6 +123,7 @@ header .scrolldown a:hover { color: #ff6600b9 ; }
 /* c. About Section
 /* ------------------------------------------------------------------ */
 .about-container {
+   padding-top: 65px;
    min-height: 100vh;
    width: 100%;
    display: flex;
@@ -152,6 +154,7 @@ header .scrolldown a:hover { color: #ff6600b9 ; }
 /* d. Abilities Section
 /* ------------------------------------------------------------------ */
 .abilities-header {
+   padding-top: 65px;
    text-align: center;
    font-size: 6vw;
 }
@@ -184,6 +187,7 @@ header .scrolldown a:hover { color: #ff6600b9 ; }
 /* e. Hokage Section
 /* ------------------------------------------------------------------ */
 .hokages-header {
+   padding-top: 65px;
    text-align: center;
    font-size: 6vw;
 }
