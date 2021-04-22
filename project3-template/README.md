@@ -1,1 +1,3 @@
-This is an example user persona that one of us created.
+# Project 3 Template
+
+This is the template for the user persona webpages.
