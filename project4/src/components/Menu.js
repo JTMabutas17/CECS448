@@ -4,32 +4,32 @@ export default class Hokage extends Component {
   render() {
     return (
       <section id="menu">
-      <h1 className="hokages-header">Hokages</h1>
+      <h1 className="hokages-header">Menu</h1>
         <div className="hokage-container">
           <div className="container">
             <div className="card">
-              <img src="images/hokage/hashirama.png" />
-              <div className="card__head">Hashirama</div>
+              <img src="images/lollicup/black-tea.png" />
+              <div className="card__head">Black Tea</div>
             </div>
             <div className="card">
-              <img src="images/hokage/tobirama.png" />
-              <div className="card__head">Tobirama</div>
+              <img src="images/lollicup/flavored-milk.png" />
+              <div className="card__head">Flavored Milk</div>
             </div>
             <div className="card">
-              <img src="images/hokage/sarutobi.png" />
-              <div className="card__head">Sarutobi</div>
+              <img src="images/lollicup/green-tea.png" />
+              <div className="card__head">Green Tea</div>
             </div>
             <div className="card">
-              <img src="images/hokage/minato.png" />
-              <div className="card__head">Minato</div>
+              <img src="images/lollicup/iced-coffee.png" />
+              <div className="card__head">Iced Coffee</div>
             </div>
             <div className="card">
-              <img src="images/hokage/tsunade.png" />
-              <div className="card__head">Tsunade</div>
+              <img src="images/lollicup/juice.png" />
+              <div className="card__head">Juice</div>
             </div>
             <div className="card">
-              <img src="images/hokage/kakashi.png" />
-              <div className="card__head">Kakashi</div>
+              <img src="images/lollicup/milk-tea.png" />
+              <div className="card__head">Milk Tea</div>
             </div>
           </div>
         </div>

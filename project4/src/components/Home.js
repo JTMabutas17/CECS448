@@ -7,18 +7,17 @@ export default class Header extends Component {
                <header>
                   <div className="row banner">
                      <div className="banner-text">
-                        <h1 className="responsive-headline">Naruto Uzumaki</h1>
+                        <h1 className="responsive-headline">Lollicup Fresh</h1>
                         <hr />
                         <h3>
-                           Seventh Hokage of the Hidden Leaf Village<br />
-                           Host of the Nine-Tailed Beast, Kurama
+                           Home Page Template
                         </h3>
                      </div>
                   </div>
 
-                  <p className="scrolldown">
+                  {/* <p className="scrolldown">
                      <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-                  </p>
+                  </p> */}
 
                </header>
             </section>

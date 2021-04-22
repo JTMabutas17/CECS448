@@ -3,7 +3,7 @@ export default class Abilities extends Component {
    render() {
       return (
          <section id="locations">
-            <h1 className="abilities-header">Abilities</h1>
+            <h1 className="abilities-header">Locations</h1>
             <div className="abilities-container">
                <img className="ability-picture" src="images/abilities/shadow-clone.gif" />
                <div className="abilities-text-area">
@@ -28,6 +28,11 @@ export default class Abilities extends Component {
                   <p>Sage Mode is an empowered state that can be entered by blending natural energy with one's chakra, creating senjutsu chakra. Sage Mode allows users to tap into the natural force of the world, opening up new techniques to them and allowing them to power up existing ones with the new senjutsu chakra.</p>
                </div>
             </div>
+
+            <p className="scrolldown">
+               <a className="smoothscroll" href="#locations"><i className="icon-up-circle"></i></a>
+            </p>
+
          </section>
       );
    }
