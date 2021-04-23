@@ -1,43 +1,49 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
-export default class Hokage extends Component {
+export default class DrinkBase extends Component {
   render() {
     return (
       <section id="menu">
-      <h1 className="hokages-header">Menu</h1>
-        <div className="hokage-container">
+        <h1 className="menus-header">Step 1: Drink Base</h1>
+        <div className="menu-container">
           <div className="container">
             <div className="card">
               <img src="images/lollicup/Drinks/black-tea.png" />
-              <div className="card__head">Black Tea</div>
+              <p>Black Tea</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/flavored-milk.png" />
-              <div className="card__head">Flavored Milk</div>
+              <p>Flavored Milk</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/green-tea.png" />
-              <div className="card__head">Green Tea</div>
+              <p>Green Tea</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/iced-coffee.png" />
-              <div className="card__head">Iced Coffee</div>
+              <p>Iced Coffee</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/juice.png" />
-              <div className="card__head">Juice</div>
+              <p>Juice</p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/milk-tea.png" />
-              <div className="card__head">Milk Tea</div>
+              <p>Milk Tea</p>
             </div>
           </div>
         </div>
-      
-        <p className="scrolldown">
-          <a className="smoothscroll" href="#menu"><i className="icon-up-circle"></i></a>
-        </p>
-      
+
+
+        <div className="btn-container">
+          <Link to="/DrinkFlavor">
+            <p className="btn" onclick="myFunction()">Next Step</p>
+          </Link>
+          <Link to="/checkout">
+            <p className="btn" onclick="myFunction()">Checkout</p>
+          </Link>
+        </div>
       </section>
     );
   }
