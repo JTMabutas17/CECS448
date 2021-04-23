@@ -8,14 +8,12 @@ export default class Navbar extends Component {
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                     <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                     <ul id="nav" className="nav">
-                        <li><Link to="/"><img src="./images/lollicup/Etc/logo.png" alt="lollicup logo" width="400px" height="70px"/></Link></li>
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/"><img src="./images/lollicup/Etc/logo.png" alt="lollicup logo" width="400px" height="70px" title="Home Page"/></Link></li>
                         <li>
                             <a>Menu</a>
                             <ul>
-                                <li><Link to="/menu">Food</Link></li>
-                                <li><Link to="/menu">Drinks</Link></li>
-                                <li><Link to="/menu">???</Link></li>
+                                <li><Link to="/foodmenu">Food</Link></li>
+                                <li><Link to="/drinkbase">Drinks</Link></li>
                             </ul>
                         </li>
                         <li><Link to="/locations">Location</Link></li>
@@ -24,9 +22,10 @@ export default class Navbar extends Component {
                             <ul>
                                 <li><Link to="/signin">Sign In</Link></li>
                                 <li><Link to="/">Sign Out</Link></li>
+                                <li><Link to="/CreateAccount">Create Account</Link></li>
                             </ul>
                         </li>
-                        <li><Link to="/order">Order</Link></li>
+                        <li><Link to="/order">Check Out</Link></li>
                     </ul>
                     {/* <div className="nav">
                         <a><Link to="/signin">Sign In</Link></a>
