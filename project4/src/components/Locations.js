@@ -29,6 +29,10 @@ export default class Abilities extends Component {
                </div>
             </div>
 
+            <p className="scrolldown">
+               <a className="smoothscroll" href="#menu"><i className="icon-up-circle"></i></a>
+            </p>
+            
          </section>
       );
    }

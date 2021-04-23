@@ -34,7 +34,7 @@ export default class Order extends Component {
 
       </div>
       <br/>
-      <Link>
+      <Link to="/DrinkBase">
       <p className="btn">Add Drink</p>
       </Link>
       <Link to="/Checkout">
