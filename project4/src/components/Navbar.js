@@ -8,6 +8,7 @@ export default class Navbar extends Component {
                     <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
                     <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
                     <ul id="nav" className="nav">
+                        <li><Link to="/"><img src="./images/lollicup/Etc/logo.png" alt="lollicup logo" width="400px" height="70px"/></Link></li>
                         <li><Link to="/">Home</Link></li>
                         <li><Link to="/menu">Menu</Link></li>
                         <li><Link to="/locations">Location</Link></li>
