@@ -3,7 +3,7 @@ export default class Abilities extends Component {
    render() {
       return (
          <section id="locations">
-            <h1 className="abilities-header">Locations</h1>
+            <h1 className="locations-header">Locations</h1>
             <div class="row">
                <div class="small-12 medium-12 large-12 columns">
                   <div class="lollicup-fresh-gradient">Find a lollicup fresh near you</div>
@@ -343,6 +343,31 @@ export default class Abilities extends Component {
                </div>
             </div>
 
+            <div class="footer">
+    <div class="row">
+        <div class="small-12 medium-8 large-8 columns">
+            <ul class="list-inline">
+            </ul>
+            <p>© Lollicup USA, Inc. Lollicup Fresh is a registered trademark of Lollicup USA, Inc.</p>
+        </div>
+        <div class="small-12 medium-4 large-4 columns">
+            <ul class="list-inline">
+                <li>
+                    Follow us:
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.facebook.com/MyLollicup/"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/mylollicup"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/mylollicup/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
 
             <p className="scrolldown">
                <a className="smoothscroll" href="#locations"><i className="icon-up-circle"></i></a>
