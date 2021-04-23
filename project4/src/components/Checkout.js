@@ -18,9 +18,9 @@ export default class Checkout extends Component {
       <label for="email"><i className="fa fa-envelope"></i> Email</label>
       <input type="text" id="email" name="email" value="john@example.com" disabled/>
       <label for="adr"><i className="fa fa-address-card-o"></i> Address</label>
-      <input type="text" id="adr" name="address" value="542 W. 15th Street" disabled />
+      <input type="text" id="adr" name="address" value="1234 San Gabriel Blvd" disabled />
       <label for="city"><i className="fa fa-institution"></i> City</label>
-      <input type="text" id="city" name="city" value="New York" disabled />
+      <input type="text" id="city" name="city" value="San Gabriel" disabled />
 
       <div className="row">
       <div className="col-50">
