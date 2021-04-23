@@ -3,25 +3,27 @@ export default class Header extends Component {
    render() {
       return (
          <React.Fragment>
-            <section id="home">
-               <header>
-                  <div className="row banner">
-                     <div className="banner-text">
-                        <h1 className="responsive-headline">Lollicup Fresh</h1>
-                        <hr />
-                        <h3>
-                           Home Page Template
-                        </h3>
-                     </div>
-                  </div>
+         <section id="home">
+         <div className ="slideshow-container">
 
-                  {/* <p className="scrolldown">
-                     <a className="smoothscroll" href="#home"><i className="icon-up-circle"></i></a>
-                  </p> */}
+         <div className ="mySlides">
+         <div className ="numbertext">1 / 3</div>
+         <img src="../images/lollicup/Ads/flavors.png" style={{width:"100%"}}/>
+         <div className ="text">Caption Text</div>
+         </div>
 
-               </header>
-            </section>
+         <div className ="mySlides">
+         <div className ="numbertext">2 / 3</div>
+         <img src="../images/lollicup/Ads/delivery.jpg" style={{width:"100%"}}/>
+         <div className ="text">Caption Two</div>
+         </div>
+
+         <a className ="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a className ="next" onclick="plusSlides(1)">&#10095;</a>
+         </div>
+         <br/>
+         </section>
          </React.Fragment>
-      );
+         );
    }
 }

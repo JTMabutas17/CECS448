@@ -9,6 +9,7 @@ import About from './components/About';
 import SignIn from './components/SignIn';
 import Order from './components/Order';
 import Checkout from './components/Checkout';
+import CreateAccount from './components/CreateAccount';
 import history from './history';
 
 class App extends Component {
@@ -25,6 +26,7 @@ class App extends Component {
             <Route path="/SignIn" component={SignIn} />
             <Route path="/Order" component={Order} />
             <Route path="/Checkout" component={Checkout} />
+            <Route path="/CreateAccount" component={CreateAccount} />
           </Switch>
         </div>
       </Router>
