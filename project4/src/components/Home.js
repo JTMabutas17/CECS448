@@ -49,6 +49,7 @@ export default class Header extends Component {
     }, [index]);
 
     return (
+      <header>
       <div className="slideshow">
         <div
           className="slideshowSlider"
@@ -75,6 +76,7 @@ export default class Header extends Component {
           ))}
         </div>
       </div>
+      </header>
     );
   }
   render(){
