@@ -17,7 +17,6 @@ export default class Navbar extends Component {
                             </ul>
                         </li>
                         <li><Link to="/locations">Location</Link></li>
-                        <li><Link to="/about">About</Link></li>
                         <li><a>Account</a>
                             <ul>
                                 <li><Link to="/signin">Sign In</Link></li>
