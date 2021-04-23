@@ -177,39 +177,6 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Abilities Section
-/* ------------------------------------------------------------------ */
-.abilities-header {
-   padding-top: 65px;
-   text-align: center;
-   font-size: 6vw;
-}
-
-.abilities-container {
-   margin-bottom: 2vh;
-   display: flex;
-   align-items: center;
-   justify-content: center;  
- }
- .ability-picture {
-   position: center;
-   width: 16vw;
-   height: 16vw;
-   border-radius: 50%;
- }
-
- .abilities-text-area {
-   background-color: white;
-   width: 50%;
-   margin-left: 24px;
- }
- 
- .abilities-text-area p {
-    font-size: 16px;
-   color: gray;
- }
-
-/* ------------------------------------------------------------------ */
 /* e. Menu Section
 /* ------------------------------------------------------------------ */
 .menus-header {
