@@ -546,12 +546,12 @@ span.price {
   }
 
   #signin button:first-child:hover{
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b,  #03a9f4);
+    background: linear-gradient(90deg, #03f45f,#afafaf);
     background-size: 400%;
 
   }
   #signin button:last-child:hover{
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b,  #03a9f4);
+    background: linear-gradient(90deg, #14ff6e,#afafaf);
     background-size: 400%;
     
   }
@@ -855,3 +855,27 @@ span.price {
     background-color:#EEEEEE;
     box-shadow:0 1px 8px rgba(0,0,0,0.5);
 }
+
+/* scrolldown link */
+.scrolldown a {
+  position: fixed;
+  bottom: 30px;
+  left: 95%;
+  top: 90%;
+  margin-left: -29px;
+  /*color: #fff;*/
+  display: block;
+  height: 42px;
+  width: 42px;
+  font-size: 42px;
+  line-height: 42px;
+  /*color: #fff;*/
+  border-radius: 100%;
+
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+.scrolldown a { color: #00cc00 ; }
+.scrolldown a:hover { color: #46ff46a4 ; }
