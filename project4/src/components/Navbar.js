@@ -10,10 +10,22 @@ export default class Navbar extends Component {
                     <ul id="nav" className="nav">
                         <li><Link to="/"><img src="./images/lollicup/Etc/logo.png" alt="lollicup logo" width="400px" height="70px"/></Link></li>
                         <li><Link to="/">Home</Link></li>
-                        <li><Link to="/menu">Menu</Link></li>
+                        <li>
+                            <a>Menu</a>
+                            <ul>
+                                <li><Link to="/menu">Food</Link></li>
+                                <li><Link to="/menu">Drinks</Link></li>
+                                <li><Link to="/menu">???</Link></li>
+                            </ul>
+                        </li>
                         <li><Link to="/locations">Location</Link></li>
                         <li><Link to="/about">About</Link></li>
-                        <li><Link to="/signin">Sign In</Link></li>
+                        <li><a>Account</a>
+                            <ul>
+                                <li><Link to="/signin">Sign In</Link></li>
+                                <li><Link to="/">Sign Out</Link></li>
+                            </ul>
+                        </li>
                         <li><Link to="/order">Order</Link></li>
                     </ul>
                     {/* <div className="nav">

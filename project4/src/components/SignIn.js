@@ -3,7 +3,7 @@ export default class SignIn extends Component {
   render() {
     return (
       <section id="signin">
-        <div className = "registrationForm">
+        <div className = "registrationForm-container">
             <form>
                 <h1>Registration Form</h1>
     
