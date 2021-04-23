@@ -21,7 +21,7 @@ export default class CreateAccount extends Component {
                     <input type="text" id="password" name="password" /> 
                     <label for="confirmPassword" id="confirmPasswordLabel">Confirm Password:</label> 
                     <input type="text" id="confirmPassword" name="confirmPassword" /> 
-                    <label for="dateOfBirth" id="dateOfBirthLabel">Date of Birth:   </label> 
+                    <label for="dateOfBirth" id="dateOfBirthLabel">Date of Birth:</label> 
                     <input type="date" id="dateOfBirth" name="dateOfBirth" /> 
                 </div>
                 <br/>
