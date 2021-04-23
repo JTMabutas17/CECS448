@@ -27,10 +27,6 @@ export default class Navbar extends Component {
                         </li>
                         <li><Link to="/order">Check Out</Link></li>
                     </ul>
-                    {/* <div className="nav">
-                        <a><Link to="/signin">Sign In</Link></a>
-                        <a><Link to="/order">Order</Link></a>
-                    </div> */}
                 </nav>
             </React.Fragment>
         );
