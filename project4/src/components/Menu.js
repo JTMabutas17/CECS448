@@ -33,6 +33,11 @@ export default class Hokage extends Component {
             </div>
           </div>
         </div>
+      
+        <p className="scrolldown">
+          <a className="smoothscroll" href="#menu"><i className="icon-up-circle"></i></a>
+        </p>
+      
       </section>
     );
   }

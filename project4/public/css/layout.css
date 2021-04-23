@@ -2,7 +2,7 @@
 /* a. Navbar Stlyles
 /* ------------------------------------------------------------------ */
 #nav-wrap ul, #nav-wrap li, #nav-wrap a {
-   background-color: rgb(17, 255, 29);
+   background-color: #087f23;
    margin: 0;
    padding: 0;
    border: none;
@@ -28,11 +28,12 @@ ul#nav {
   min-height: 48px;
   width: auto;
   text-align: center;
+  align-items: center;
 }
 ul#nav li {
   position: relative;
   list-style: none;
-  height: 48px;
+  height: auto;
   display: inline-block;
 }
 
@@ -42,7 +43,7 @@ ul#nav li a {
   line-height: 32px;
   text-decoration: none;
   text-align: left;
-  color: #000;
+  color: white;
 
   -webkit-transition: color .2s ease-in-out;
   -moz-transition: color .2s ease-in-out;
@@ -97,10 +98,11 @@ header {
  }
 
 /* scrolldown link */
-header .scrolldown a {
-   position: absolute;
+.scrolldown a {
+   position: fixed;
    bottom: 30px;
-   left: 50%;
+   left: 95%;
+   top: 90%;
    margin-left: -29px;
    /*color: #fff;*/
    display: block;
@@ -116,8 +118,8 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a { color: #ff66004d ; }
-header .scrolldown a:hover { color: #ff6600b9 ; }
+.scrolldown a { color: #ff66004d ; }
+.scrolldown a:hover { color: #ff6600b9 ; }
 
 /* ------------------------------------------------------------------ */
 /* c. About Section
