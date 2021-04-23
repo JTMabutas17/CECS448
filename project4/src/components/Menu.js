@@ -8,27 +8,27 @@ export default class Hokage extends Component {
         <div className="hokage-container">
           <div className="container">
             <div className="card">
-              <img src="images/lollicup/black-tea.png" />
+              <img src="images/lollicup/Drinks/black-tea.png" />
               <div className="card__head">Black Tea</div>
             </div>
             <div className="card">
-              <img src="images/lollicup/flavored-milk.png" />
+              <img src="images/lollicup/Drinks/flavored-milk.png" />
               <div className="card__head">Flavored Milk</div>
             </div>
             <div className="card">
-              <img src="images/lollicup/green-tea.png" />
+              <img src="images/lollicup/Drinks/green-tea.png" />
               <div className="card__head">Green Tea</div>
             </div>
             <div className="card">
-              <img src="images/lollicup/iced-coffee.png" />
+              <img src="images/lollicup/Drinks/iced-coffee.png" />
               <div className="card__head">Iced Coffee</div>
             </div>
             <div className="card">
-              <img src="images/lollicup/juice.png" />
+              <img src="images/lollicup/Drinks/juice.png" />
               <div className="card__head">Juice</div>
             </div>
             <div className="card">
-              <img src="images/lollicup/milk-tea.png" />
+              <img src="images/lollicup/Drinks/milk-tea.png" />
               <div className="card__head">Milk Tea</div>
             </div>
           </div>
