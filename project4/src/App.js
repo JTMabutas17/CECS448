@@ -3,7 +3,7 @@ import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import Navbar from './components/Navbar';
 import Header from './components/Home';
-import Menu from './components/Menu';
+import Menu from './components/DrinkBase';
 import Locations from './components/Locations';
 import About from './components/About';
 import SignIn from './components/SignIn';
@@ -20,7 +20,7 @@ class App extends Component {
         <div className="App">
           <Switch>
             <Route path="/" exact component={Header} />
-            <Route path="/Menu" component={Menu} />
+            <Route path="/DrinkBase" component={Menu} />
             <Route path="/Locations" component={Locations} />
             <Route path="/About" component={About} />
             <Route path="/SignIn" component={SignIn} />
