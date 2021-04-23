@@ -1,23 +1,4 @@
 import React, { Component, Slide , useEffect} from 'react';
-// export default class Header extends Component {
-//    render() {
-//       return (
-//          <div className="slide-container">
-//         <Slide easing="ease">
-//           <div className="each-slide">
-//             <div style={{'backgroundImage': `url(./images/lollicup/Ads/flavors.png)`}}>
-//             </div>
-//           </div>
-//           <div className="each-slide">
-//             <div style={{'backgroundImage': `url(./images/lollicup/Ads/delivery.jpg`}}>
-//             </div>
-//           </div>
-//         </Slide>
-//       </div>
-//          );
-//    }
-// }
-
 
 export default class Header extends Component {
   Slideshow() {
@@ -49,7 +30,9 @@ export default class Header extends Component {
     }, [index]);
 
     return (
+      <section id="header">
       <div className="slideshow">
+        
         <div
           className="slideshowSlider"
           style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}
@@ -74,7 +57,21 @@ export default class Header extends Component {
             ></div>
           ))}
         </div>
+
+        <br></br>
+
+        <div className="about-container">
+          <img className="profile-picture" src="images/lollicup/Etc/lollicup-logo.png"/>
+          <div className="about-text-area">
+            <h1>Our Mission</h1>
+            <p>To deliver an exceptional dining experience by creating an eatery that is fun, fresh, and first-rate. <br></br>
+               The Lollicup® concept is not just about great tasting food, but the whole dining experience – without long wait times and overpriced items. Lollicup® stores strive to bring a brand new experience to customers that will have them eager to come back for more.</p>
+            </div>
+        </div>
+
       </div>
+      
+      </section>
     );
   }
   render(){
