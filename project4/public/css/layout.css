@@ -552,9 +552,9 @@ span.price {
   }
   #signin button:last-child:hover{
     background: linear-gradient(90deg, #14ff6e,#afafaf);
-    background-size: 400%;
-    
+    background-size: 400%; 
   }
+
   #signin button:first-child:before,
   button:last-child:before{
     content: '';
@@ -693,8 +693,8 @@ span.price {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.8)),url(../images/lollicup/about-banner.jpg);
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     background-position:center;
     background-size: cover;
     text-align: center;
@@ -717,15 +717,15 @@ span.price {
   }
 
   #create button:first-child:hover{
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b,  #03a9f4);
+    background: linear-gradient(90deg, #03f45f,#afafaf);
     background-size: 400%;
 
   }
   #create button:last-child:hover{
-    background: linear-gradient(90deg, #03a9f4, #f441a5, #ffeb3b,  #03a9f4);
+    background: linear-gradient(90deg, #14ff6e,#afafaf);
     background-size: 400%;
-    
   }
+  
   #create button:first-child:before,
   button:last-child:before{
     content: '';

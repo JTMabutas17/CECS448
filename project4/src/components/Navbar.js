@@ -22,10 +22,10 @@ export default class Navbar extends Component {
                             <ul>
                                 <li><Link to="/signin">Sign In</Link></li>
                                 <li><Link to="/">Sign Out</Link></li>
-                                <li><Link to="/">Create Account</Link></li>
+                                <li><Link to="/CreateAccount">Create Account</Link></li>
                             </ul>
                         </li>
-                        <li><Link to="/order">Order</Link></li>
+                        <li><Link to="/order">Check Out</Link></li>
                     </ul>
                     {/* <div className="nav">
                         <a><Link to="/signin">Sign In</Link></a>
