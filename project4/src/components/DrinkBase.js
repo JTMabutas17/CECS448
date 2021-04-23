@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
+import { Link } from "react-router-dom";
 
 export default class DrinkBase extends Component {
   render() {
     return (
       <section id="menu">
-      <h1 className="menus-header">Menu</h1>
+        <h1 className="menus-header">Step 1: Drink Base</h1>
         <div className="menu-container">
           <div className="container">
             <div className="card">
@@ -35,11 +36,14 @@ export default class DrinkBase extends Component {
         </div>
 
 
-      
-        <p className="scrolldown">
-          <a className="smoothscroll" href="#menu"><i className="icon-up-circle"></i></a>
-        </p>
-      
+        <div className="btn-container">
+          <Link to="/DrinkFlavor">
+            <p className="btn" onclick="myFunction()">Next Step</p>
+          </Link>
+          <Link to="/checkout">
+            <p className="btn" onclick="myFunction()">Checkout</p>
+          </Link>
+        </div>
       </section>
     );
   }

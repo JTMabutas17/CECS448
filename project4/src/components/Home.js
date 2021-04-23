@@ -1,21 +1,26 @@
 import React, { Component } from 'react';
-import 'react-slideshow-image/dist/styles.css'
-import { Slide } from 'react-slideshow-image';
 export default class Header extends Component {
    render() {
       return (
-         <div className="slide-container">
-        <Slide easing="ease">
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(./images/lollicup/Ads/flavors.png)`}}>
-            </div>
-          </div>
-          <div className="each-slide">
-            <div style={{'backgroundImage': `url(./images/lollicup/Ads/delivery.jpg`}}>
-            </div>
-          </div>
-        </Slide>
-      </div>
-         );
+         <section id="home">
+               <header>
+                  <div className="row banner">
+                     <div className="banner-text">
+                        <h1 className="responsive-headline">Naruto Uzumaki</h1>
+                        <hr />
+                        <h3>
+                           Seventh Hokage of the Hidden Leaf Village<br />
+                           Host of the Nine-Tailed Beast, Kurama
+                        </h3>
+                     </div>
+                  </div>
+
+                  <p className="scrolldown">
+                     <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
+                  </p>
+
+               </header>
+            </section>
+      );
    }
 }

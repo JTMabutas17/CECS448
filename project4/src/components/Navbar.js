@@ -12,8 +12,8 @@ export default class Navbar extends Component {
                         <li>
                             <a>Menu</a>
                             <ul>
-                                <li><Link to="/menu">Food</Link></li>
-                                <li><Link to="/menu">Drinks</Link></li>
+                                <li><Link to="/foodmenu">Food</Link></li>
+                                <li><Link to="/drinkbase">Drinks</Link></li>
                             </ul>
                         </li>
                         <li><Link to="/locations">Location</Link></li>
