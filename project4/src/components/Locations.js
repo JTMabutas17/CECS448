@@ -3,7 +3,7 @@ export default class Abilities extends Component {
    render() {
       return (
          <section id="locations">
-            <h1 className="abilities-header">Locations</h1>
+            <h1 className="locations-header">Locations</h1>
             <div class="row">
                <div class="small-12 medium-12 large-12 columns">
                   <div class="lollicup-fresh-gradient">Find a lollicup fresh near you</div>
@@ -342,7 +342,6 @@ export default class Abilities extends Component {
                   </div>
                </div>
             </div>
-
 
             <p className="scrolldown">
                <a className="smoothscroll" href="#locations"><i className="icon-up-circle"></i></a>

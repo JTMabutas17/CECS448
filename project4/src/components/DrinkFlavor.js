@@ -66,7 +66,7 @@ export default class DrinkFlavor extends Component {
 
         <div className="btn-container">
           <Link to="/DrinkBase">
-            <p className="btn" onclick="myFunction()">Prev Step</p>
+            <p className="btn" onclick="myFunction()">Previous Step</p>
           </Link>
           <Link to="/DrinkToppings">
             <p className="btn" onclick="myFunction()">Next Step</p>

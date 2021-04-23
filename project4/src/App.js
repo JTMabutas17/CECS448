@@ -14,6 +14,7 @@ import SignIn from './components/SignIn';
 import Order from './components/Order';
 import Checkout from './components/Checkout';
 import CreateAccount from './components/CreateAccount';
+import Footer from './components/Footer';
 import history from './history';
 
 class App extends Component {

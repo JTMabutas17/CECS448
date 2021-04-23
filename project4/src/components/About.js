@@ -8,7 +8,7 @@ export default class About extends Component {
           <div className="about-text-area">
             <h1>About Us</h1>
             <p>Lollicup About Page</p>
-            </div>
+          </div>
         </div>
       </section>
     );

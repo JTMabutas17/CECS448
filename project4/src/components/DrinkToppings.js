@@ -37,7 +37,7 @@ export default class DrinkToppings extends Component {
 
         <div className="btn-container">
           <Link to="/DrinkFlavor">
-            <p className="btn" onclick="myFunction()">Prev Step</p>
+            <p className="btn" onclick="myFunction()">Previous Step</p>
           </Link>
           <Link to="/checkout">
             <p className="btn" onclick="myFunction()">Checkout</p>

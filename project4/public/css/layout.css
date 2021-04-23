@@ -95,7 +95,7 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
   color:black;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(rgba(97, 97, 97, 0.5),rgba(0, 0, 0, 0.5)), url(../images/home-background.png);
+  background-image: linear-gradient(rgba(97, 97, 97, 0.5),rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
   /* background-image: url(../images/header-background.jpg); */
   background-position: center;
   background-repeat: no-repeat;
@@ -170,10 +170,14 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
    margin-left: 24px;
  }
  
- .about-text-area p, h1 {
+ .about-text-area p {
     color: white;
     font-size: 16px;
  }
+
+ .about-text-area h1 {
+  color: white;
+}
 
 
 /* ------------------------------------------------------------------ */
@@ -226,7 +230,7 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
 
 .btn-container {
   margin: 0;
-  padding-top: 40px;
+  padding-top: 20px;
   /* min-height: 60vh; */
   font-family: sans-serif;
   display: flex;
@@ -837,3 +841,15 @@ span.price {
 .slideshowDot.active {
   background-color: #6a0dad;
 }
+
+/* 
+  Footer
+ */
+ .footer-container {
+   position: relative;
+   bottom: 0px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+ }
