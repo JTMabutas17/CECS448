@@ -3,26 +3,16 @@ export default class Abilities extends Component {
    render() {
       return (
          <section id="locations">
+            <div className="Webpage">
             <h1 className="locations-header">Locations</h1>
-            <div class="row">
-               <div class="small-12 medium-12 large-12 columns">
-                  <div class="lollicup-fresh-gradient">Find a lollicup fresh near you</div>
+               {/*LA County "row"*/}
+               <div class="Row">
+                  <div class="Column2">LA County</div>
                </div>
-            </div>
 
-            {/*LA County "row"*/}
-            <div class="row">
-               <div class="small-12 medium-12 large-12 columns">
-                  <div class="lollicup-fresh-gradient">LA County</div>
-               </div>
-            </div>
-
-            {/*Citadel and Alhambra locations "row"*/}
-            <div class="row">
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
-
+               {/*Citadel and Alhambra locations "row"*/}
+               <div class="Row">
+                  <div class="Column">
                      <div class="location">Citadel Outlets (Food Court)</div>
                      <div class="address">
                         <div class="street">150 Citadel Dr, #FC-G</div>
@@ -32,7 +22,6 @@ export default class Abilities extends Component {
                      </div>
                      <div class="align-top">
                         <div class="phone mg-right-10">Phone:</div>
-
                         <div>
                            <div class="number">(323) 477-1571</div>
                         </div>
@@ -45,11 +34,7 @@ export default class Abilities extends Component {
                         </ul>
                      </div>
                   </div>
-               </div>
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
-
+                  <div class="Column">
                      <div class="location">Alhambra</div>
                      <div class="address">
                         <div class="street">228 W Valley Blvd # 106A</div>
@@ -72,14 +57,7 @@ export default class Abilities extends Component {
                         </ul>
                      </div>
                   </div>
-               </div>
-            </div>
-
-            {/*UCLA and South Gate locations "row"*/}
-            <div class="row">
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
+                  <div class="Column">
                      <div class="location">UCLA <br></br> Ackerman Union 1st Floor</div>
                      <div class="address">
                         <div class="street">308 Westwood Plaza</div>
@@ -102,10 +80,9 @@ export default class Abilities extends Component {
                      </div>
                   </div>
                </div>
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
-
+               {/*Soth Gate - Los Cerritos location*/}
+               <div class="Row">
+                  <div class="Column">
                      <div class="location">South Gate</div>
                      <div class="address">
                         <div class="street">4819 Firestone Blvd</div>
@@ -127,14 +104,8 @@ export default class Abilities extends Component {
                         </ul>
                      </div>
                   </div>
-               </div>
-            </div>
 
-            {/*Cal Poly and Cerritos locations "row"*/}
-            <div class="row">
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
+                  <div class="Column">
                      <div class="location"> Cal Poly Pomona </div>
                      <div class="address">
                         <div class="street">Centerpointe Bldg 72, 3801 W. Temple Ave</div>
@@ -156,13 +127,9 @@ export default class Abilities extends Component {
                         </ul>
                      </div>
                   </div>
-               </div>
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
+                  <div class="Column">
                      <div class="location">
                         <span> Los Cerritos Center (Kiosk) - Coming Soon!</span>
-                        {/*<span style="font-style: italic; color: #d54000;"> Coming Soon! </span>*/}
                      </div>
                      <div class="address">
                         <div class="street">905 Los Cerritos Ctr</div>
@@ -185,21 +152,13 @@ export default class Abilities extends Component {
                      </div>
                   </div>
                </div>
-            </div>
-
-            {/*Orange County "row"*/}
-            <div class="row">
-               <div class="small-12 medium-12 large-12 columns">
-                  <div class="lollicup-fresh-gradient">Orange County</div>
+               {/*Orange County "row"*/}
+               <div class="Row">
+                  <div class="Column2">Orange County</div>
                </div>
-            </div>
-
-            {/*Brea Mall and Fountain Valley locations "row"*/}
-            <div class="row">
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
-
+               {/*Brea Mall and Fountain Valley locations "row"*/}
+               <div class="Row">
+                  <div class="Column">
                      <div class="location">Brea Mall (Food Court)</div>
                      <div class="address">
                         <div class="street">1065 Brea Mall Way</div>
@@ -221,10 +180,7 @@ export default class Abilities extends Component {
                         </ul>
                      </div>
                   </div>
-               </div>
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
+                  <div class="Column">
                      <div class="location">Fountain Valley</div>
                      <div class="address">
                         <div class="street">18645 Brookhurst St</div>
@@ -246,14 +202,7 @@ export default class Abilities extends Component {
                         </ul>
                      </div>
                   </div>
-               </div>
-            </div>
-
-            {/*Westminster location "row"*/}
-            <div class="row">
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
+                  <div class="Column">
                      <div class="location"> Westminster </div>
                      <div class="address">
                         <div class="street">9550 Bolsa Avenue #108</div>
@@ -276,23 +225,14 @@ export default class Abilities extends Component {
                      </div>
                   </div>
                </div>
-            </div>
-
-            {/*San Bernandino and San Diego County "row"*/}
-            <div class="row">
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="lollicup-fresh-gradient">San Bernardino County</div>
+               {/*San Bernandino and San Diego County "row"*/}
+               <div class="Row">
+                  <div class="Column2">San Bernardino County</div>
+                  <div class="Column2">San Diego County</div>
                </div>
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="lollicup-fresh-gradient">San Diego County</div>
-               </div>
-            </div>
-
-            {/*Ontario Mill and Oceanside locations "row"*/}
-            <div class="row">
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
+               {/*Ontario Mill and Oceanside locations "row"*/}
+               <div class="Row">
+                  <div class="Column">
                      <div class="location"> Ontario Mills </div>
                      <div class="address">
                         <div class="street">1 Mills Cr #1031</div>
@@ -314,10 +254,8 @@ export default class Abilities extends Component {
                         </ul>
                      </div>
                   </div>
-               </div>
-               <div class="small-6 medium-6 large-6 columns">
-                  <div class="green-horizontal-line-px-2"></div>
-                  <div class="lollicup-fresh-location">
+
+                  <div class="Column">
                      <div class="location"> Oceanside </div>
                      <div class="address">
                         <div class="street">4121 Oceanside Blvd #201</div>
@@ -338,15 +276,12 @@ export default class Abilities extends Component {
                            </li>
                         </ul>
                      </div>
-
                   </div>
                </div>
+               <p className="scrolldown">
+                  <a className="smoothscroll" href="#locations"><i className="icon-up-circle"></i></a>
+               </p>
             </div>
-
-            <p className="scrolldown">
-               <a className="smoothscroll" href="#locations"><i className="icon-up-circle"></i></a>
-            </p>
-
          </section>
       );
    }
