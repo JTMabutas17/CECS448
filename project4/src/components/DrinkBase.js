@@ -10,27 +10,27 @@ export default class DrinkBase extends Component {
           <div className="container">
             <div className="card">
               <img src="images/lollicup/Drinks/black-tea.png" />
-              <p>Black Tea</p>
+              <p>Black Tea <br /> Base price: $4 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/flavored-milk.png" />
-              <p>Flavored Milk</p>
+              <p>Flavored Milk <br /> Base price: $5 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/green-tea.png" />
-              <p>Green Tea</p>
+              <p>Green Tea <br /> Base price: $3 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/iced-coffee.png" />
-              <p>Iced Coffee</p>
+              <p>Iced Coffee <br /> Base price: $6 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/juice.png" />
-              <p>Juice</p>
+              <p>Juice <br /> Base price: $3 </p>
             </div>
             <div className="card">
               <img src="images/lollicup/Drinks/milk-tea.png" />
-              <p>Milk Tea</p>
+              <p>Milk Tea <br /> Base price: $4 </p>
             </div>
           </div>
         </div>

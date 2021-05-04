@@ -94,10 +94,9 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
 #header {
   color:black;
   width: 100%;
-  height: auto;
-  padding-bottom: 70px;
+  height: 100%;
+  padding-bottom: 120px;
   background-image: linear-gradient(rgba(97, 97, 97, 0.5),rgba(0, 0, 0, 0.5)), url(../images/leaves.jpg);
-  /* background-image: url(../images/header-background.jpg); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,7 +214,7 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 25vh;
+  height: 30vh;
 }
 
 #menu .container .card:hover{
@@ -245,7 +244,7 @@ ul#nav li.current a { color: rgba(88, 88, 88, 0.788); }
 /* ------------------------------------------------------------------ */
 
 .order-container{
-   padding-top: 70px;
+   padding-top: 80px;
    padding-bottom: 100px;
    height: auto;
    display: flex;
@@ -345,9 +344,9 @@ a .btn {
 /* g. Checkout Section
 /* ------------------------------------------------------------------ */
 .checkout-container{
-   padding-top: 70px;
-   padding-bottom: 100px;
-   height: auto;
+   padding-top: 80px;
+   padding-bottom: 80px;
+   height: 100%;
    display: flex;
    justify-content: center;
    align-items: center;
@@ -711,6 +710,14 @@ a .btn {
       box-shadow: 3px 3px 3px 3px #4e4e4e;
   }
 
+  .textBox input[type=text] {
+    width: 100%;
+    /* margin-bottom: 20px;
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 3px; */
+  }
+
   .createForm-container{
       padding-top: 100px;
       display: flex;
@@ -852,6 +859,8 @@ a .btn {
 /* i. Locations Section
 /* ------------------------------------------------------------------ */
 .Webpage{
+  width: auto;
+  height: auto;
   align-items: center;
   align-content: center;
   background-image: linear-gradient(rgba(97, 97, 97, 0.5),rgba(0, 0, 0, 0.5)), url(../images/locations.jpg);

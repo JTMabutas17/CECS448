@@ -63,6 +63,9 @@ export default class CreateAccount extends Component {
             </form>
         </div>
         </div>
+        <p className="scrolldown">
+                  <a className="smoothscroll" href="#create"><i className="icon-up-circle"></i></a>
+               </p>
         </div>
       </section>
     );
