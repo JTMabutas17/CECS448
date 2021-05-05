@@ -13,7 +13,7 @@
 ![cmdSS](https://i.gyazo.com/9113efd803cc22757d15fd01e9a0240c.png)
 6. Upon doing so the terminal will be brought up where you will type "npm install" to initialize the website.
    *![npminstall](https://i.gyazo.com/fa7f128e8e8e81a87139df033504de55.png)
-      *If the npm install looks long and gives warnings, do not be alarmed, it will look like this
+      * If the npm install looks long and gives warnings, do not be alarmed, it will look like this
       *![npminstallcode](https://i.gyazo.com/6f3d3536de4b4ba008c84840079779ee.png)
 7.After the process of npm install has finished, next you will type "npm start" in order to run the website locally.
    *![consolenpmstart](https://i.gyazo.com/619cf385966e5fd90904fd28ea15c395.png)
